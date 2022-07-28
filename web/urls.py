@@ -21,4 +21,4 @@ urlpatterns = [
     path('actualizarCliente',views.actualizarCliente,name='actualizarCliente'),
     path('registrarPedido',views.registrarPedido,name='registrarPedido'),
     path('pedidopagado',views.pedidopagado,name='pedidopagado')
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
