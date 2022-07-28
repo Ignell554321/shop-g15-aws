@@ -153,6 +153,12 @@ cloudinary.config(
     api_secret = os.getenv('CLOUDINARY_API_SECRET')
 )
 """
+cloudinary.config(
+    cloud_name = 'mguevara94',
+    api_key= '677399464643811',
+    api_secret = 'KA35nO6WrDnA4pXl_1kVp8QCjeU'
+)
+
 PAYPAL_TEST = True
 
 PAYPAL_RECEIVER_EMAIL = os.getenv('PAYPAL_EMAIL')
